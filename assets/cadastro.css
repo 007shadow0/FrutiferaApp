@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    background-color: rgb(255, 255, 255);
+}
+main {
+    background-color: rgb(224, 231, 231);
+    flex: 1;
+    padding: 30px;
+}
+footer {
+    background-color: rgb(80, 47, 47);
+    color: white;
+}
+.form-floating{
+    width: 95%;
+    display: flex;
+
+}
+.labell{
+    display: flex;
+}
+#btnmodal{
+    width: 65px;
+    height: 56px;
+
+} 
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 2px; /* Espaçamento das bordas da tela */
+    flex-wrap: wrap; /* Permite quebrar linha em telas pequenas */
+
+}
+.card-title{
+    text-align: center;
+
+}
+.valor{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    margin: 0 auto; 
+}
+
+.li{
+    color: white;
+}

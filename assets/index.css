@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    background-color: rgb(255, 255, 255);
+}
+main {
+    background-color: rgb(224, 231, 231);
+    flex: 1;
+}
+footer {
+    background-color: rgb(80, 47, 47);
+    color: white;
+
+}
+
+.carousel {
+    max-width: 895px;  /* ou outro valor que desejar */
+    margin: 0px auto; /* centraliza o carrossel na página */
+    
+}
+
+.carousel img {
+    height: 400px;        /* altura fixa desejada */
+    object-fit: cover;    /* mantém proporção e cobre o espaço */
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espaçamento entre os cards */
+    padding: 10px; /* Espaçamento das bordas da tela */
+    flex-wrap: wrap; /* Permite quebrar linha em telas pequenas */
+}
+
+.card {
+    width: 18rem;
+    border-radius: 10px;
+}
+
+.card-img-top {
+    height: 350px;       /* Altura padronizada */
+    width: 100%;         /* Ocupa toda a largura do card */
+}
+
+h5{
+    text-align: center;
+    text-justify: auto;
+}
+
+.valor{
+    text-align: center;
+}
+
+
+.divFooter{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.lifooter{
+    color: white;
+    text-decoration-line: none;
+    margin-right: 20px;
+}
+
+.lifooter1{
+    margin-top: 20px;
+}
+
+a{
+    color: white;
+}
