@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    background-color: rgb(255, 255, 255);
+}
+main {
+    background-color: rgb(224, 231, 231);
+    flex: 1;
+    padding: 10px;
+}
+footer {
+    background-color: rgb(80, 47, 47);
+    color: white;
+}
+.form-floating{
+    width: 95%;
+    display: flex;
+
+}
+.labell{
+    display: flex;
+}
+
+.li{
+    color: white;
+}
+#cartoesfrutas{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 2px;
+    flex-wrap: wrap; 
+}
